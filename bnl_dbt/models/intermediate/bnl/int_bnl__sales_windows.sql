@@ -40,6 +40,8 @@ final as (
         sales_ytd_current_year,
         sales_prior_year_full_year,
         sales_ytd_prior_year,
+        sales_recent_9_months,
+        sales_prior_9_27_months,
         (sales_ytd_current_year - sales_ytd_prior_year) as yoy_variance_amt
     from(
         select
@@ -91,7 +93,24 @@ final as (
             and month < (as_of_month - interval '1 year') then sales_amt
             else 0
         end
-    ) as sales_ytd_prior_year
+    ) as sales_ytd_prior_year,
+
+    sum(
+        case
+            when month >= (as_of_month - interval '9 month') 
+            and month < as_of_month then sales_amt
+            else 0
+        end
+    ) as sales_recent_9_months,
+
+     -- Prior window: prior 9-27 months.
+    sum(
+        case
+            when month >= (as_of_month - interval '27 month') 
+            and month < (as_of_month - interval '9 month') then sales_amt
+            else 0
+        end
+    ) as sales_prior_9_27_months
     from joined
     group by 1,2,3,4
 ) x
