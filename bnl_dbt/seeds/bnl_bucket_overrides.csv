@@ -1,0 +1,3 @@
+as_of_month,bu,analysis_customer_id,product_id,override_bucket,reason
+2025-03-01,BU_A,C030,P001,Lost,Known business exception
+2025-04-01,BU_B,C040,P003,Lost,Known business exception
