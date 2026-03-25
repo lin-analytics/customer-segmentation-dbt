@@ -1,11 +1,11 @@
-# BNL Customer Lifecycle Analytics Model
+# Customer Customer Analytics Model
 
 **dbt + DuckDB Analytics Engineering Project**
 
 
 # 1. Project Overview
 
-This project implements a **BNL (Base–New–Lost) customer lifecycle model** using **dbt** and **DuckDB**.
+This project implements a **customer segmentation model** using **dbt** and **DuckDB**.
 
 The purpose of the model is to provide business leadership with a clear and consistent view of **customer lifecycle trends and revenue movement** across products and business units.
 
@@ -31,7 +31,7 @@ Revenue operations leadership required a standardized way to measure **customer 
 
 Specifically, leadership wanted to answer questions such as:
 
-* How many customers are **New**, **Base**, or **Lost** each month?
+* How many customers are **New**, **Declining**, **Growing**, or **Inactive** each month?
 * Which products are driving **customer growth or churn**?
 * Are **existing customers expanding or contracting** their purchasing?
 
@@ -42,8 +42,8 @@ However, several issues prevented reliable analysis:
 Different business units used different definitions of:
 
 * New customers
-* Lost customers
-* Base customers
+* Inactive customers
+* Declining customers
 
 ### Customer Identity Fragmentation
 
@@ -127,9 +127,9 @@ This approach ensures:
 
 ---
 
-# 5. BNL Lifecycle Classification
+# 5. Customer Segmentation
 
-Customer lifecycle classification operates at the following grain:
+Customer segmentation operates at the following grain:
 
 ```
 as_of_month × business_unit × product_id × analysis_customer_id
@@ -159,16 +159,14 @@ sales_recent_6m > 0
 AND sales_prior_18m = 0
 ```
 
-Base Customer
-
 All remaining customers.
 
-Base customers are further segmented based on **year-over-year sales variance**:
+Remaining customers are further segmented based on **year-over-year sales variance**:
 
 | Condition | Classification |
 | --------- | -------------- |
-| YoY > 0   | Base Gainer    |
-| YoY < 0   | Base Drainer   |
+| YoY > 0   | Growing        |
+| YoY < 0   | Declining      |
 
 ---
 
@@ -188,7 +186,6 @@ sales_ytd_current_year > 0
 AND sales_previous_year_full = 0
 ```
 
-Base Customer
 
 All remaining customers.
 
@@ -234,7 +231,7 @@ as_of_month × business_unit × customer × product
 If an override exists, the final classification becomes:
 
 ```
-bnl_bucket_final = override_bucket
+customer_segmentation_bucket_final = override_bucket
 ```
 
 The model tracks override metadata:
@@ -254,7 +251,7 @@ The final data model follows a **star schema** design.
 
 ### Fact Table
 
-`fct_bnl__product_customer_month`
+`fct_customer_segmentation__product_customer_month`
 
 Grain
 
@@ -269,9 +266,8 @@ Measures
 
 Attributes
 
-* bnl_bucket_raw
-* bnl_bucket_final
-* base_movement
+* customer_segmentation_bucket_raw
+* customer_segmentation_bucket_final
 * override_applied_flag
 
 ---
@@ -315,7 +311,7 @@ The model is designed to support **business intelligence platforms such as Table
 
 dbt **exposures** are defined to simulate downstream dashboards including:
 
-* Executive BNL Customer Health Dashboard
+* Executive Customer Health Dashboard
 * Customer Lifecycle Drilldown
 * Published Tableau Data Source
 

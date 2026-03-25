@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: fct_customer_segmentation__product_customer_month
+    columns:
+      - name: as_of_month
+        tests: [not_null]
+      - name: bu
+        tests: [not_null]
+      - name: product_id
+        tests: [not_null]
+      - name: analysis_customer_id
+        tests: [not_null]
+      - name: customer_segmentation_bucket_final
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Growing', 'Declining', 'Inactive', 'New','Stable']
