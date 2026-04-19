@@ -1,4 +1,4 @@
-# Customer Customer Analytics Model
+# Customer Analytics Model
 
 **dbt + DuckDB Analytics Engineering Project**
 
@@ -7,9 +7,9 @@
 
 This project implements a **customer segmentation model** using **dbt** and **DuckDB**.
 
-The purpose of the model is to provide business leadership with a clear and consistent view of **customer lifecycle trends and revenue movement** across products and business units.
+The purpose of this model is to provide a clear and consistent view of customer purchase behavior, lifecycle trends, and revenue movement across product categories and customer segments.
 
-The pipeline converts raw transactional sales data into an **analytics-ready dimensional model** supporting downstream BI tools such as Tableau.
+The pipeline transforms raw transactional data into an analytics-ready dimensional model designed to support downstream BI tools such as Tableau.
 
 Key capabilities implemented in this project include:
 
@@ -27,13 +27,13 @@ The repository demonstrates **modern analytics engineering practices using dbt**
 
 # 2. Business Context
 
-Revenue operations leadership required a standardized way to measure **customer lifecycle performance**.
+Businesses need a standardized way to measure **customer lifecycle performance** over time.
 
-Specifically, leadership wanted to answer questions such as:
+This model is designed to answer questions such as:
 
-* How many customers are **New**, **Declining**, **Growing**, or **Inactive** each month?
-* Which products are driving **customer growth or churn**?
-* Are **existing customers expanding or contracting** their purchasing?
+* How many customers are **New**, **Declining**, **Growing**, or **Inactive** in a given period?
+* Which products or categories are driving **customer growth or churn**?
+* Are **existing customers expanding or contracting** their purchasing behavior?
 
 However, several issues prevented reliable analysis:
 
@@ -139,77 +139,37 @@ Two rule frameworks exist due to differences between business units.
 
 ---
 
-## 5.1 Standard Lifecycle Logic
+## 5.1 Customer Lifecycle Logic
 
-Used by the majority of business units.
+Customers are segmented by comparing **recent activity** against a **historical baseline**.
 
-### January – June
-
-Lost Customer
+**Inactive Customer**
 
 ```
-sales_recent_6m = 0
-AND sales_prior_18m > 0
+No activity in the recent period
+AND
+Activity present in the historical period
 ```
 
-New Customer
+**New Customer**
 
 ```
-sales_recent_6m > 0
-AND sales_prior_18m = 0
+Activity in the recent period
+AND
+No prior historical activity
 ```
 
-All remaining customers.
+**Growing / Declining Customers**
 
-Remaining customers are further segmented based on **year-over-year sales variance**:
+Remaining customers are classified based on change in behavior between periods:
 
-| Condition | Classification |
-| --------- | -------------- |
-| YoY > 0   | Growing        |
-| YoY < 0   | Declining      |
+| Condition                     | Classification |
+|------------------------------|----------------|
+| Recent > Historical baseline | Growing        |
+| Recent < Historical baseline | Declining      |
 
 ---
 
-### July – December
-
-Lost Customer
-
-```
-sales_ytd_current_year = 0
-AND sales_previous_year_full > 0
-```
-
-New Customer
-
-```
-sales_ytd_current_year > 0
-AND sales_previous_year_full = 0
-```
-
-
-All remaining customers.
-
----
-
-## 5.2 Alternative BU Lifecycle Logic
-
-Certain business units use a simplified rule set without the July threshold.
-
-Lost Customer
-
-```
-sales_recent_9m = 0
-AND sales_prior_18m > 0
-```
-
-New Customer
-
-```
-sales_recent_9m > 0
-AND sales_prior_18m = 0
-```
-
----
 
 # 6. Business Override Framework
 
@@ -296,9 +256,8 @@ Examples include:
 
 | Test                | Purpose                                            |
 | ------------------- | -------------------------------------------------- |
-| Lost Before July    | Ensures Lost classification matches window logic   |
-| New Before July     | Ensures New classification matches window logic    |
-| Lost After July     | Validates YTD rule framework                       |
+| Inactive    | Ensures Inactive classification matches window logic   |
+| New         | Ensures New classification matches window logic    |
 | Override Validation | Ensures override rows correctly apply final bucket |
 
 These tests ensure the model remains **correct as data evolves**.

@@ -9,12 +9,12 @@ final as (
         bu,
         product_id,
         analysis_customer_id,
-        sales_recent_9_months,
-        sales_prior_9_27_months,
+        sales_recent_90d,
+        sales_prior_360d,
         yoy_variance_amt,
         case
-            when sales_recent_9_months > 0 and sales_prior_9_27_months = 0 then 'New'
-            when sales_recent_9_months = 0 and sales_prior_9_27_months > 0 then 'Inactive'
+            when sales_recent_90d > 0 and sales_prior_360d = 0 then 'New'
+            when sales_recent_90d = 0 and sales_prior_360d > 0 then 'Inactive'
             when yoy_variance_amt > 0 then 'Growing'
             when yoy_variance_amt < 0 then 'Declining'
             else 'Stable'

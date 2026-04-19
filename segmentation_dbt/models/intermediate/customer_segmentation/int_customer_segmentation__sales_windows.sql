@@ -35,13 +35,13 @@ final as (
         bu,
         product_id,
         analysis_customer_id,
-        sales_recent_6_months,
-        sales_prior_6_18_months,
+        sales_recent_30d,
+        sales_prior_180d,
         sales_ytd_current_year,
         sales_prior_year_full_year,
         sales_ytd_prior_year,
-        sales_recent_9_months,
-        sales_prior_9_27_months,
+        sales_recent_90d,
+        sales_prior_360d,
         (sales_ytd_current_year - sales_ytd_prior_year) as yoy_variance_amt
     from(
         select
@@ -50,23 +50,23 @@ final as (
             product_id,
             analysis_customer_id,
 
-    -- Recent 6 months including as_of_month(not inlcuding as_of_month)
+    -- Recent 30 days not including as_of_month
     sum(
         case
-            when month >= (as_of_month - interval '6 month') 
+            when month >= (as_of_month - interval '30 day') 
             and month < as_of_month then sales_amt
             else 0
         end
-    ) as sales_recent_6_months,
+    ) as sales_recent_30d,
 
-    -- Prior window: prior 6-18 months.
+    -- Prior window: prior 30-180 days.
     sum(
         case
-            when month >= (as_of_month - interval '18 month') 
-            and month < (as_of_month - interval '6 month') then sales_amt
+            when month >= (as_of_month - interval '180 day') 
+            and month < (as_of_month - interval '30 day') then sales_amt
             else 0
         end
-    ) as sales_prior_6_18_months,
+    ) as sales_prior_180d,
 
     -- YTD Current year sales (from Jan 1 of as_of_month's year to as_of_month, not including as_of_month the as_of_month)
     sum(
@@ -97,20 +97,20 @@ final as (
 
     sum(
         case
-            when month >= (as_of_month - interval '9 month') 
+            when month >= (as_of_month - interval '90 day') 
             and month < as_of_month then sales_amt
             else 0
         end
-    ) as sales_recent_9_months,
+    ) as sales_recent_90d,
 
-     -- Prior window: prior 9-27 months.
+     -- Prior window: prior 90-360 days.
     sum(
         case
-            when month >= (as_of_month - interval '27 month') 
-            and month < (as_of_month - interval '9 month') then sales_amt
+            when month >= (as_of_month - interval '360 day') 
+            and month < (as_of_month - interval '90 day') then sales_amt
             else 0
         end
-    ) as sales_prior_9_27_months
+    ) as sales_prior_360d
     from joined
     group by 1,2,3,4
 ) x
