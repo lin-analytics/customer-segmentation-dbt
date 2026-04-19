@@ -7,7 +7,7 @@ with std as (
         customer_segmentation_bucket as customer_segmentation_bucket_raw,
         yoy_variance_amt,
         'standard' as logic_type
-    from {{ref('int_customer_segmentation__classification')}}
+    from {{ref('int_customer_segmentation__30d_180d')}}
 ),
 
 bu2 as (
@@ -19,7 +19,7 @@ bu2 as (
         customer_segmentation_bucket_bu2 as customer_segmentation_bucket_raw,
         cast(null as double) as yoy_variance_amt,
         'bu2_9_18' as logic_type
-    from {{ref('int_customer_segmentation__classification_bu2')}}
+    from {{ref('int_customer_segmentation__90d_360d')}}
 ),
 
 raw as (

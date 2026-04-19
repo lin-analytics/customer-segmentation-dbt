@@ -28,7 +28,7 @@ models:
             - analysis_customer_id
             - month
             - bu
-  - name: int_customer_segmentation__classification
+  - name: int_customer_segmentation__30d_180d      
     columns:
       - name: customer_segmentation_bucket
         tests:

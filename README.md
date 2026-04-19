@@ -132,7 +132,7 @@ This approach ensures:
 Customer segmentation operates at the following grain:
 
 ```
-as_of_month × business_unit × product_id × analysis_customer_id
+as_of_month × segment × product_id × analysis_customer_id
 ```
 
 Two rule frameworks exist due to differences between business units.
@@ -185,7 +185,7 @@ Examples include:
 Overrides are stored in a dedicated table with the following grain:
 
 ```
-as_of_month × business_unit × customer × product
+as_of_month × segment × customer × product
 ```
 
 If an override exists, the final classification becomes:
@@ -216,7 +216,7 @@ The final data model follows a **star schema** design.
 Grain
 
 ```
-as_of_month × BU × product_id × analysis_customer_id
+as_of_month × segment × product_id × analysis_customer_id
 ```
 
 Measures
