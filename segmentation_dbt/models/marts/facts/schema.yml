@@ -15,4 +15,4 @@ models:
         tests:
           - not_null
           - accepted_values:
-              values: ['Growing', 'Declining', 'Inactive', 'New','Stable']
+              values: ['Growing', 'Declining', 'Inactive', 'New','Stable', 'Lost']
