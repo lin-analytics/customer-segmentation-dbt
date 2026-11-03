@@ -1,5 +1,101 @@
 customer_id,parent_customer_id,bu,customer_name
-C001,PC01,BU_A,Alpha Co
-C002,PC02,BU_A,Beta Co
-C003,PC99,BU_A,Legacy Gamma
-C007,,BU_A,Gamma Alt
+C001,PC001,Consumable,Maple Roasters 001
+C002,PC001,Consumable,Juniper Roasters 002
+C003,PC001,Consumable,Legacy Juniper Coffee (merged)
+C004,PC001,Consumable,River Roasters 004
+C005,PC002,Consumable,Copper Roasters 005
+C006,PC002,Consumable,Sunrise Roasters 006
+C007,PC002,Consumable,Juniper Coffee Old Account (merged)
+C008,PC002,Consumable,Harbor Roasters 008
+C009,PC003,Consumable,Lake Roasters 009
+C010,PC003,Consumable,Cedar Roasters 010
+C011,PC003,Consumable,Bluebird Roasters 011
+C012,PC003,Consumable,Briar Roasters 012
+C013,PC004,Consumable,Willow Roasters 013
+C014,PC004,Consumable,Golden Roasters 014
+C015,PC004,Consumable,Orchard Roasters 015
+C016,PC004,Consumable,Spruce Roasters 016
+C017,PC005,Consumable,Meadow Roasters 017
+C018,PC005,Consumable,Elm Roasters 018
+C019,PC005,Consumable,Hearth Roasters 019
+C020,PC005,Consumable,Stone Roasters 020
+C021,PC006,Consumable,Maple Coffee Bar 021
+C022,PC006,Consumable,Juniper Coffee Bar 022
+C023,PC006,Consumable,North Coffee Bar 023
+C024,PC006,Consumable,River Coffee Bar 024
+C025,PC007,Consumable,Copper Coffee Bar 025
+C026,PC007,Consumable,Sunrise Coffee Bar 026
+C027,PC007,Consumable,Birch Coffee Bar 027
+C028,PC007,Consumable,Harbor Coffee Bar 028
+C029,PC008,Consumable,Lake Coffee Bar 029
+C030,PC008,Consumable,Juniper Coffee Group
+C031,PC008,Consumable,Bluebird Coffee Bar 031
+C032,PC008,Consumable,Briar Coffee Bar 032
+C033,PC009,Consumable,Willow Coffee Bar 033
+C034,PC009,Consumable,Golden Coffee Bar 034
+C035,PC009,Consumable,Orchard Coffee Bar 035
+C036,PC009,Consumable,Spruce Coffee Bar 036
+C037,PC010,Consumable,Meadow Coffee Bar 037
+C038,PC010,Consumable,Elm Coffee Bar 038
+C039,PC010,Consumable,Hearth Coffee Bar 039
+C040,PC010,Consumable,Stone Coffee Bar 040
+C041,PC011,Consumable,Maple Cafe 041
+C042,PC011,Consumable,Juniper Cafe 042
+C043,PC011,Consumable,North Cafe 043
+C044,PC011,Consumable,River Cafe 044
+C045,PC012,Consumable,Copper Cafe 045
+C046,PC012,Consumable,Sunrise Cafe 046
+C047,PC012,Consumable,Birch Cafe 047
+C048,PC012,Consumable,Harbor Cafe 048
+C049,PC013,Consumable,Lake Cafe 049
+C050,PC013,Consumable,Cedar Cafe 050
+C051,PC013,Consumable,Bluebird Cafe 051
+C052,PC013,Consumable,Briar Cafe 052
+C053,PC014,Consumable,Willow Cafe 053
+C054,PC014,Consumable,Golden Cafe 054
+C055,PC014,Consumable,Orchard Cafe 055
+C056,PC014,Consumable,Spruce Cafe 056
+C057,PC015,Consumable,Meadow Cafe 057
+C058,PC015,Consumable,Elm Cafe 058
+C059,PC015,Consumable,Hearth Cafe 059
+C060,PC015,Consumable,Stone Cafe 060
+C061,PC016,Consumable,Maple Coffee House 061
+C062,PC016,Consumable,Juniper Coffee House 062
+C063,PC016,Consumable,North Coffee House 063
+C064,PC016,Consumable,River Coffee House 064
+C065,PC017,Consumable,Copper Coffee House 065
+C066,PC017,Consumable,Sunrise Coffee House 066
+C067,PC017,Consumable,Birch Coffee House 067
+C068,PC017,Consumable,Harbor Coffee House 068
+C069,PC018,Consumable,Lake Coffee House 069
+C070,PC018,Consumable,Cedar Coffee House 070
+C071,PC018,Consumable,Bluebird Coffee House 071
+C072,PC018,Consumable,Briar Coffee House 072
+C073,PC019,Consumable,Willow Coffee House 073
+C074,PC019,Consumable,Golden Coffee House 074
+C075,PC019,Consumable,Orchard Coffee House 075
+C076,PC019,Consumable,Spruce Coffee House 076
+C077,PC020,Consumable,Meadow Coffee House 077
+C078,PC020,Consumable,Elm Coffee House 078
+C079,PC020,Consumable,Hearth Coffee House 079
+C080,PC020,Consumable,Stone Coffee House 080
+C081,PC021,Consumable,Maple Espresso 081
+C082,PC021,Consumable,Juniper Espresso 082
+C083,PC021,Consumable,North Espresso 083
+C084,PC021,Consumable,River Espresso 084
+C085,PC022,Consumable,Copper Espresso 085
+C086,PC022,Consumable,Sunrise Espresso 086
+C087,PC022,Consumable,Birch Espresso 087
+C088,PC022,Consumable,Harbor Espresso 088
+C089,PC023,Consumable,Lake Espresso 089
+C090,PC023,Consumable,Cedar Espresso 090
+C091,PC023,Consumable,Bluebird Espresso 091
+C092,PC023,Consumable,Briar Espresso 092
+C093,PC024,Consumable,Willow Espresso 093
+C094,PC024,Consumable,Golden Espresso 094
+C095,PC024,Consumable,Orchard Espresso 095
+C096,PC024,Consumable,Spruce Espresso 096
+C097,PC025,Consumable,Meadow Espresso 097
+C098,PC025,Consumable,Elm Espresso 098
+C099,PC025,Consumable,Hearth Espresso 099
+C100,PC025,Consumable,Stone Espresso 100

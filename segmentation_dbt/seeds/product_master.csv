@@ -1,4 +1,13 @@
 product_id,product_name,bu
-P001,Film Roll,BU_A
-P002,Bubble Wrap,BU_A
-P003,Mailer,BU_B
+P001,House Espresso Beans 5lb,Consumable
+P002,Cold Brew Blend 5lb,Consumable
+P003,Commercial Espresso Machine,Machine
+P004,Oat Milk Case,Consumable
+P005,Vanilla Syrup Case,Consumable
+P006,Compostable Hot Cups Case,Consumable
+P007,Compostable Cold Cups Case,Consumable
+P008,Chocolate Sauce Case,Consumable
+P009,Decaf Coffee Beans 5lb,Consumable
+P010,Batch Coffee Grinder,Machine
+P011,Cold Brew Dispensing System,Machine
+P012,Commercial Water Filtration Unit,Machine
