@@ -5,4 +5,4 @@ target/
 logs/
 *.duckdb
 .DS_Store
-__pycache__/
+__pycache__/.venv_backup/

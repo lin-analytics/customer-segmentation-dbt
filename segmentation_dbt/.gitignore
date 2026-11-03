@@ -1,4 +1,18 @@
+# Python virtual environments
+.venv/
+.venv_backup/
 
+# Local dbt configuration
+.dbt_local/
+
+# Local databases
+*.duckdb
+*.duckdb.wal
+
+# Generated files
 target/
 dbt_packages/
 logs/
+
+# System files
+.DS_Store
