@@ -8,7 +8,7 @@ with std as (
         yoy_variance_amt,
         'standard' as logic_type
     from {{ref('int_customer_segmentation__30d_180d')}}
-    where bu != '{{ var("bu2_code", "BU_B") }}'
+    where bu != '{{ var("bu2_code", "Machine") }}'
 ),
 
 bu2 as (
@@ -21,7 +21,7 @@ bu2 as (
         cast(null as float64) as yoy_variance_amt,
         'bu2_9_18' as logic_type
     from {{ref('int_customer_segmentation__90d_360d')}}
-    where bu = '{{ var("bu2_code", "BU_B") }}'
+    where bu = '{{ var("bu2_code", "Machine") }}'
 ),
 
 raw as (
