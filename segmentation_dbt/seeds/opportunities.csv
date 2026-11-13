@@ -1,0 +1,185 @@
+snapshot_date,opportunity_id,customer_id,product_id,bu,created_date,expected_close_date,stage,amount,probability,opportunity_name
+2026-10-31,OPP00001,C001,P010,Machine,2026-09-30,2027-02-23,Qualification,18988.66,0.15,Maple Roasters 001 - P010 expansion
+2026-10-31,OPP00002,C001,P010,Machine,2026-09-08,2026-10-14,Closed Lost,45302.88,0.0,Maple Roasters 001 - P010 expansion
+2026-10-31,OPP00003,C002,P003,Machine,2026-07-06,2027-03-19,Qualification,33867.11,0.15,Juniper Roasters 002 - P003 expansion
+2026-10-31,OPP00004,C002,P011,Machine,2026-07-11,2026-12-25,Qualification,42592.99,0.15,Juniper Roasters 002 - P011 expansion
+2026-10-31,OPP00005,C004,P006,Consumable,2026-09-28,2027-03-20,Qualification,15343.34,0.15,River Roasters 004 - P006 expansion
+2026-10-31,OPP00006,C004,P008,Consumable,2026-07-28,2026-10-12,Closed Lost,15937.28,0.0,River Roasters 004 - P008 expansion
+2026-10-31,OPP00007,C004,P010,Machine,2026-09-13,2026-12-20,Qualification,20050.04,0.15,River Roasters 004 - P010 expansion
+2026-10-31,OPP00008,C005,P010,Machine,2026-07-28,2026-11-19,Negotiation,25658.89,0.8,Copper Roasters 005 - P010 expansion
+2026-10-31,OPP00009,C006,P003,Machine,2026-08-04,2026-12-01,Negotiation,42844.61,0.8,Sunrise Roasters 006 - P003 expansion
+2026-10-31,OPP00010,C006,P001,Consumable,2026-07-10,2027-01-11,Qualification,13626.4,0.15,Sunrise Roasters 006 - P001 expansion
+2026-10-31,OPP00011,C006,P003,Machine,2026-07-13,2026-12-31,Qualification,6019.57,0.15,Sunrise Roasters 006 - P003 expansion
+2026-10-31,OPP00012,C008,P001,Consumable,2026-08-02,2026-10-13,Closed Won,9359.04,1.0,Harbor Roasters 008 - P001 expansion
+2026-10-31,OPP00013,C008,P003,Machine,2026-06-11,2026-11-24,Proposal,47836.26,0.55,Harbor Roasters 008 - P003 expansion
+2026-10-31,OPP00014,C008,P010,Machine,2026-09-14,2027-02-09,Negotiation,45995.79,0.8,Harbor Roasters 008 - P010 expansion
+2026-10-31,OPP00015,C009,P010,Machine,2026-10-02,2026-12-10,Discovery,12629.8,0.3,Lake Roasters 009 - P010 expansion
+2026-10-31,OPP00016,C009,P008,Consumable,2026-08-09,2027-01-05,Negotiation,17076.48,0.8,Lake Roasters 009 - P008 expansion
+2026-10-31,OPP00017,C010,P004,Consumable,2026-08-18,2026-12-04,Qualification,22517.98,0.15,Cedar Roasters 010 - P004 expansion
+2026-10-31,OPP00018,C011,P004,Consumable,2026-07-08,2027-01-12,Negotiation,21762.35,0.8,Bluebird Roasters 011 - P004 expansion
+2026-10-31,OPP00019,C011,P011,Machine,2026-07-15,2027-01-10,Negotiation,40026.09,0.8,Bluebird Roasters 011 - P011 expansion
+2026-10-31,OPP00020,C011,P004,Consumable,2026-07-04,2026-12-02,Qualification,17860.8,0.15,Bluebird Roasters 011 - P004 expansion
+2026-10-31,OPP00021,C012,P012,Machine,2026-06-21,2027-01-19,Discovery,39272.13,0.3,Briar Roasters 012 - P012 expansion
+2026-10-31,OPP00022,C012,P001,Consumable,2026-07-13,2026-10-19,Closed Won,18056.74,1.0,Briar Roasters 012 - P001 expansion
+2026-10-31,OPP00023,C012,P003,Machine,2026-10-11,2027-02-14,Qualification,38767.65,0.15,Briar Roasters 012 - P003 expansion
+2026-10-31,OPP00024,C013,P001,Consumable,2026-08-23,2026-11-15,Negotiation,11178.33,0.8,Willow Roasters 013 - P001 expansion
+2026-10-31,OPP00025,C013,P002,Consumable,2026-08-04,2026-10-16,Closed Won,12347.7,1.0,Willow Roasters 013 - P002 expansion
+2026-10-31,OPP00026,C014,P007,Consumable,2026-08-20,2027-02-22,Qualification,6792.08,0.15,Golden Roasters 014 - P007 expansion
+2026-10-31,OPP00027,C015,P006,Consumable,2026-07-16,2026-12-26,Qualification,14247.01,0.15,Orchard Roasters 015 - P006 expansion
+2026-10-31,OPP00028,C015,P011,Machine,2026-09-14,2027-01-26,Qualification,40785.21,0.15,Orchard Roasters 015 - P011 expansion
+2026-10-31,OPP00029,C016,P008,Consumable,2026-10-17,2027-03-09,Qualification,18022.93,0.15,Spruce Roasters 016 - P008 expansion
+2026-10-31,OPP00030,C016,P006,Consumable,2026-09-30,2026-10-25,Closed Lost,12214.85,0.0,Spruce Roasters 016 - P006 expansion
+2026-10-31,OPP00031,C017,P003,Machine,2026-10-10,2026-12-27,Proposal,33095.53,0.55,Meadow Roasters 017 - P003 expansion
+2026-10-31,OPP00032,C017,P003,Machine,2026-09-16,2027-03-04,Negotiation,10222.24,0.8,Meadow Roasters 017 - P003 expansion
+2026-10-31,OPP00033,C018,P006,Consumable,2026-10-10,2027-01-21,Proposal,4409.72,0.55,Elm Roasters 018 - P006 expansion
+2026-10-31,OPP00034,C019,P009,Consumable,2026-08-05,2027-03-08,Negotiation,9179.09,0.8,Hearth Roasters 019 - P009 expansion
+2026-10-31,OPP00035,C019,P004,Consumable,2026-07-31,2026-12-27,Discovery,17622.34,0.3,Hearth Roasters 019 - P004 expansion
+2026-10-31,OPP00036,C020,P011,Machine,2026-06-11,2026-10-06,Closed Won,19135.51,1.0,Stone Roasters 020 - P011 expansion
+2026-10-31,OPP00037,C021,P011,Machine,2026-09-07,2026-10-18,Closed Won,14602.81,1.0,Maple Coffee Bar 021 - P011 expansion
+2026-10-31,OPP00038,C021,P011,Machine,2026-06-29,2027-03-28,Negotiation,29459.19,0.8,Maple Coffee Bar 021 - P011 expansion
+2026-10-31,OPP00039,C022,P009,Consumable,2026-06-09,2027-03-11,Negotiation,10824.54,0.8,Juniper Coffee Bar 022 - P009 expansion
+2026-10-31,OPP00040,C022,P009,Consumable,2026-09-19,2026-11-29,Negotiation,17971.27,0.8,Juniper Coffee Bar 022 - P009 expansion
+2026-10-31,OPP00041,C022,P008,Consumable,2026-09-03,2027-02-27,Proposal,6128.58,0.55,Juniper Coffee Bar 022 - P008 expansion
+2026-10-31,OPP00042,C023,P010,Machine,2026-08-10,2026-11-17,Proposal,18679.45,0.55,North Coffee Bar 023 - P010 expansion
+2026-10-31,OPP00043,C023,P003,Machine,2026-10-19,2026-10-11,Closed Won,33722.97,1.0,North Coffee Bar 023 - P003 expansion
+2026-10-31,OPP00044,C024,P002,Consumable,2026-09-20,2027-01-20,Proposal,4110.32,0.55,River Coffee Bar 024 - P002 expansion
+2026-10-31,OPP00045,C025,P003,Machine,2026-08-07,2027-01-19,Discovery,17735.99,0.3,Copper Coffee Bar 025 - P003 expansion
+2026-10-31,OPP00046,C025,P003,Machine,2026-07-24,2026-10-15,Closed Won,16087.17,1.0,Copper Coffee Bar 025 - P003 expansion
+2026-10-31,OPP00047,C025,P008,Consumable,2026-08-23,2026-10-11,Closed Won,5162.58,1.0,Copper Coffee Bar 025 - P008 expansion
+2026-10-31,OPP00048,C026,P011,Machine,2026-07-16,2026-12-25,Proposal,36343.9,0.55,Sunrise Coffee Bar 026 - P011 expansion
+2026-10-31,OPP00049,C027,P003,Machine,2026-08-30,2026-10-25,Closed Lost,37357.67,0.0,Birch Coffee Bar 027 - P003 expansion
+2026-10-31,OPP00050,C027,P003,Machine,2026-07-09,2027-02-22,Negotiation,19587.4,0.8,Birch Coffee Bar 027 - P003 expansion
+2026-10-31,OPP00051,C028,P012,Machine,2026-08-24,2026-10-20,Closed Won,7244.24,1.0,Harbor Coffee Bar 028 - P012 expansion
+2026-10-31,OPP00052,C028,P006,Consumable,2026-09-25,2026-12-25,Qualification,12175.85,0.15,Harbor Coffee Bar 028 - P006 expansion
+2026-10-31,OPP00053,C028,P011,Machine,2026-08-27,2027-01-26,Proposal,15668.85,0.55,Harbor Coffee Bar 028 - P011 expansion
+2026-10-31,OPP00054,C029,P010,Machine,2026-09-12,2026-12-17,Proposal,38893.12,0.55,Lake Coffee Bar 029 - P010 expansion
+2026-10-31,OPP00055,C029,P003,Machine,2026-08-06,2026-12-17,Qualification,46963.29,0.15,Lake Coffee Bar 029 - P003 expansion
+2026-10-31,OPP00056,C030,P006,Consumable,2026-09-10,2027-03-07,Negotiation,6137.9,0.8,Juniper Coffee Group - P006 expansion
+2026-10-31,OPP00057,C031,P002,Consumable,2026-10-07,2026-12-24,Negotiation,14562.31,0.8,Bluebird Coffee Bar 031 - P002 expansion
+2026-10-31,OPP00058,C031,P001,Consumable,2026-09-24,2027-03-18,Qualification,7460.65,0.15,Bluebird Coffee Bar 031 - P001 expansion
+2026-10-31,OPP00059,C032,P012,Machine,2026-06-11,2026-11-26,Discovery,17137.96,0.3,Briar Coffee Bar 032 - P012 expansion
+2026-10-31,OPP00060,C033,P002,Consumable,2026-09-20,2027-03-08,Negotiation,21467.99,0.8,Willow Coffee Bar 033 - P002 expansion
+2026-10-31,OPP00061,C033,P011,Machine,2026-08-07,2027-02-22,Qualification,18319.87,0.15,Willow Coffee Bar 033 - P011 expansion
+2026-10-31,OPP00062,C034,P006,Consumable,2026-06-14,2027-03-27,Proposal,13908.92,0.55,Golden Coffee Bar 034 - P006 expansion
+2026-10-31,OPP00063,C034,P003,Machine,2026-07-30,2026-10-21,Closed Lost,41649.86,0.0,Golden Coffee Bar 034 - P003 expansion
+2026-10-31,OPP00064,C034,P011,Machine,2026-07-01,2027-03-03,Proposal,30048.69,0.55,Golden Coffee Bar 034 - P011 expansion
+2026-10-31,OPP00065,C035,P003,Machine,2026-07-18,2026-12-21,Negotiation,18508.13,0.8,Orchard Coffee Bar 035 - P003 expansion
+2026-10-31,OPP00066,C035,P004,Consumable,2026-08-06,2027-03-01,Proposal,8628.86,0.55,Orchard Coffee Bar 035 - P004 expansion
+2026-10-31,OPP00067,C036,P003,Machine,2026-07-15,2026-12-24,Negotiation,25308.01,0.8,Spruce Coffee Bar 036 - P003 expansion
+2026-10-31,OPP00068,C036,P010,Machine,2026-08-27,2027-02-10,Discovery,25232.68,0.3,Spruce Coffee Bar 036 - P010 expansion
+2026-10-31,OPP00069,C037,P002,Consumable,2026-10-07,2026-12-29,Negotiation,15566.52,0.8,Meadow Coffee Bar 037 - P002 expansion
+2026-10-31,OPP00070,C037,P006,Consumable,2026-07-02,2026-12-07,Discovery,7845.73,0.3,Meadow Coffee Bar 037 - P006 expansion
+2026-10-31,OPP00071,C038,P001,Consumable,2026-06-30,2027-03-13,Negotiation,16762.44,0.8,Elm Coffee Bar 038 - P001 expansion
+2026-10-31,OPP00072,C039,P008,Consumable,2026-07-16,2027-03-02,Qualification,21339.48,0.15,Hearth Coffee Bar 039 - P008 expansion
+2026-10-31,OPP00073,C039,P008,Consumable,2026-07-26,2027-02-15,Negotiation,20884.67,0.8,Hearth Coffee Bar 039 - P008 expansion
+2026-10-31,OPP00074,C040,P003,Machine,2026-09-15,2027-03-09,Qualification,24256.5,0.15,Stone Coffee Bar 040 - P003 expansion
+2026-10-31,OPP00075,C040,P011,Machine,2026-09-02,2027-01-16,Negotiation,46324.89,0.8,Stone Coffee Bar 040 - P011 expansion
+2026-10-31,OPP00076,C041,P004,Consumable,2026-06-30,2027-02-19,Qualification,7682.26,0.15,Maple Cafe 041 - P004 expansion
+2026-10-31,OPP00077,C041,P011,Machine,2026-08-29,2027-01-21,Qualification,35320.01,0.15,Maple Cafe 041 - P011 expansion
+2026-10-31,OPP00078,C042,P003,Machine,2026-06-21,2027-02-25,Qualification,10195.41,0.15,Juniper Cafe 042 - P003 expansion
+2026-10-31,OPP00079,C042,P008,Consumable,2026-06-20,2026-10-27,Closed Won,17012.82,1.0,Juniper Cafe 042 - P008 expansion
+2026-10-31,OPP00080,C042,P004,Consumable,2026-08-22,2026-11-22,Qualification,19031.09,0.15,Juniper Cafe 042 - P004 expansion
+2026-10-31,OPP00081,C043,P009,Consumable,2026-10-11,2027-03-17,Negotiation,10118.87,0.8,North Cafe 043 - P009 expansion
+2026-10-31,OPP00082,C043,P002,Consumable,2026-08-05,2027-02-27,Discovery,16856.03,0.3,North Cafe 043 - P002 expansion
+2026-10-31,OPP00083,C043,P007,Consumable,2026-08-31,2027-03-27,Discovery,5256.33,0.3,North Cafe 043 - P007 expansion
+2026-10-31,OPP00084,C044,P006,Consumable,2026-08-30,2027-01-26,Proposal,5277.7,0.55,River Cafe 044 - P006 expansion
+2026-10-31,OPP00085,C045,P011,Machine,2026-09-29,2026-12-30,Proposal,39388.54,0.55,Copper Cafe 045 - P011 expansion
+2026-10-31,OPP00086,C045,P007,Consumable,2026-08-19,2027-01-10,Negotiation,21397.53,0.8,Copper Cafe 045 - P007 expansion
+2026-10-31,OPP00087,C046,P007,Consumable,2026-09-05,2027-02-17,Proposal,9263.38,0.55,Sunrise Cafe 046 - P007 expansion
+2026-10-31,OPP00088,C047,P003,Machine,2026-06-16,2026-10-28,Closed Won,18624.45,1.0,Birch Cafe 047 - P003 expansion
+2026-10-31,OPP00089,C047,P004,Consumable,2026-06-30,2026-12-02,Negotiation,17227.93,0.8,Birch Cafe 047 - P004 expansion
+2026-10-31,OPP00090,C048,P003,Machine,2026-08-31,2026-10-18,Closed Won,20563.37,1.0,Harbor Cafe 048 - P003 expansion
+2026-10-31,OPP00091,C049,P012,Machine,2026-10-02,2027-03-07,Proposal,8209.1,0.55,Lake Cafe 049 - P012 expansion
+2026-10-31,OPP00092,C050,P009,Consumable,2026-08-05,2027-01-06,Negotiation,9829.93,0.8,Cedar Cafe 050 - P009 expansion
+2026-10-31,OPP00093,C051,P010,Machine,2026-08-07,2027-01-25,Proposal,44229.91,0.55,Bluebird Cafe 051 - P010 expansion
+2026-10-31,OPP00094,C052,P003,Machine,2026-07-01,2027-02-08,Negotiation,18271.24,0.8,Briar Cafe 052 - P003 expansion
+2026-10-31,OPP00095,C053,P005,Consumable,2026-09-07,2026-10-24,Closed Won,5633.5,1.0,Willow Cafe 053 - P005 expansion
+2026-10-31,OPP00096,C054,P008,Consumable,2026-07-14,2027-03-30,Qualification,4589.65,0.15,Golden Cafe 054 - P008 expansion
+2026-10-31,OPP00097,C054,P003,Machine,2026-07-08,2026-11-25,Negotiation,47346.42,0.8,Golden Cafe 054 - P003 expansion
+2026-10-31,OPP00098,C054,P004,Consumable,2026-08-13,2026-12-01,Qualification,19692.35,0.15,Golden Cafe 054 - P004 expansion
+2026-10-31,OPP00099,C055,P012,Machine,2026-09-11,2027-03-13,Negotiation,38941.99,0.8,Orchard Cafe 055 - P012 expansion
+2026-10-31,OPP00100,C055,P003,Machine,2026-10-14,2026-12-01,Negotiation,36070.07,0.8,Orchard Cafe 055 - P003 expansion
+2026-10-31,OPP00101,C056,P010,Machine,2026-09-24,2026-10-15,Closed Won,23116.87,1.0,Spruce Cafe 056 - P010 expansion
+2026-10-31,OPP00102,C056,P003,Machine,2026-09-11,2026-11-29,Discovery,34346.7,0.3,Spruce Cafe 056 - P003 expansion
+2026-10-31,OPP00103,C057,P004,Consumable,2026-10-08,2026-12-15,Negotiation,23277.5,0.8,Meadow Cafe 057 - P004 expansion
+2026-10-31,OPP00104,C057,P005,Consumable,2026-08-10,2027-01-24,Proposal,21786.82,0.55,Meadow Cafe 057 - P005 expansion
+2026-10-31,OPP00105,C057,P010,Machine,2026-07-01,2027-03-27,Negotiation,34061.85,0.8,Meadow Cafe 057 - P010 expansion
+2026-10-31,OPP00106,C058,P004,Consumable,2026-07-15,2027-02-23,Negotiation,10571.2,0.8,Elm Cafe 058 - P004 expansion
+2026-10-31,OPP00107,C059,P011,Machine,2026-10-18,2026-11-25,Proposal,25847.11,0.55,Hearth Cafe 059 - P011 expansion
+2026-10-31,OPP00108,C059,P002,Consumable,2026-08-27,2026-10-09,Closed Won,8179.21,1.0,Hearth Cafe 059 - P002 expansion
+2026-10-31,OPP00109,C060,P002,Consumable,2026-10-09,2026-10-06,Closed Lost,21573.6,0.0,Stone Cafe 060 - P002 expansion
+2026-10-31,OPP00110,C061,P003,Machine,2026-07-09,2027-02-09,Negotiation,37484.56,0.8,Maple Coffee House 061 - P003 expansion
+2026-10-31,OPP00111,C062,P002,Consumable,2026-08-27,2026-10-09,Closed Lost,5907.33,0.0,Juniper Coffee House 062 - P002 expansion
+2026-10-31,OPP00112,C063,P001,Consumable,2026-07-15,2026-10-18,Closed Lost,14429.93,0.0,North Coffee House 063 - P001 expansion
+2026-10-31,OPP00113,C063,P003,Machine,2026-07-24,2027-02-06,Proposal,38563.72,0.55,North Coffee House 063 - P003 expansion
+2026-10-31,OPP00114,C063,P002,Consumable,2026-10-03,2026-12-11,Negotiation,8991.71,0.8,North Coffee House 063 - P002 expansion
+2026-10-31,OPP00115,C064,P010,Machine,2026-10-18,2026-12-03,Qualification,21581.5,0.15,River Coffee House 064 - P010 expansion
+2026-10-31,OPP00116,C065,P012,Machine,2026-07-31,2027-02-20,Negotiation,23552.46,0.8,Copper Coffee House 065 - P012 expansion
+2026-10-31,OPP00117,C066,P008,Consumable,2026-08-16,2026-10-28,Closed Won,16699.69,1.0,Sunrise Coffee House 066 - P008 expansion
+2026-10-31,OPP00118,C066,P008,Consumable,2026-09-30,2026-12-25,Qualification,5490.59,0.15,Sunrise Coffee House 066 - P008 expansion
+2026-10-31,OPP00119,C067,P012,Machine,2026-09-08,2027-03-27,Discovery,15423.18,0.3,Birch Coffee House 067 - P012 expansion
+2026-10-31,OPP00120,C067,P011,Machine,2026-09-05,2027-02-22,Qualification,25106.76,0.15,Birch Coffee House 067 - P011 expansion
+2026-10-31,OPP00121,C068,P006,Consumable,2026-09-05,2026-12-03,Proposal,21169.63,0.55,Harbor Coffee House 068 - P006 expansion
+2026-10-31,OPP00122,C068,P007,Consumable,2026-10-03,2026-10-09,Closed Won,4113.68,1.0,Harbor Coffee House 068 - P007 expansion
+2026-10-31,OPP00123,C068,P006,Consumable,2026-07-22,2027-01-08,Negotiation,6066.37,0.8,Harbor Coffee House 068 - P006 expansion
+2026-10-31,OPP00124,C069,P002,Consumable,2026-07-01,2027-03-17,Proposal,7021.13,0.55,Lake Coffee House 069 - P002 expansion
+2026-10-31,OPP00125,C069,P009,Consumable,2026-08-19,2026-11-28,Discovery,22274.74,0.3,Lake Coffee House 069 - P009 expansion
+2026-10-31,OPP00126,C069,P008,Consumable,2026-08-15,2026-12-27,Negotiation,8271.98,0.8,Lake Coffee House 069 - P008 expansion
+2026-10-31,OPP00127,C070,P010,Machine,2026-07-27,2027-02-11,Negotiation,35823.25,0.8,Cedar Coffee House 070 - P010 expansion
+2026-10-31,OPP00128,C071,P002,Consumable,2026-07-25,2027-01-17,Proposal,15250.62,0.55,Bluebird Coffee House 071 - P002 expansion
+2026-10-31,OPP00129,C072,P012,Machine,2026-09-26,2026-10-15,Closed Lost,14149.28,0.0,Briar Coffee House 072 - P012 expansion
+2026-10-31,OPP00130,C072,P011,Machine,2026-10-14,2026-10-30,Closed Won,15923.73,1.0,Briar Coffee House 072 - P011 expansion
+2026-10-31,OPP00131,C073,P009,Consumable,2026-10-17,2026-11-18,Proposal,21598.67,0.55,Willow Coffee House 073 - P009 expansion
+2026-10-31,OPP00132,C073,P004,Consumable,2026-07-30,2027-02-04,Qualification,11444.98,0.15,Willow Coffee House 073 - P004 expansion
+2026-10-31,OPP00133,C074,P001,Consumable,2026-07-29,2026-10-28,Closed Lost,18906.63,0.0,Golden Coffee House 074 - P001 expansion
+2026-10-31,OPP00134,C075,P004,Consumable,2026-09-11,2027-02-01,Discovery,16880.26,0.3,Orchard Coffee House 075 - P004 expansion
+2026-10-31,OPP00135,C076,P003,Machine,2026-07-28,2026-12-11,Negotiation,29408.35,0.8,Spruce Coffee House 076 - P003 expansion
+2026-10-31,OPP00136,C077,P009,Consumable,2026-10-04,2027-03-09,Discovery,12314.87,0.3,Meadow Coffee House 077 - P009 expansion
+2026-10-31,OPP00137,C077,P011,Machine,2026-09-08,2027-03-14,Proposal,9798.94,0.55,Meadow Coffee House 077 - P011 expansion
+2026-10-31,OPP00138,C078,P007,Consumable,2026-06-28,2027-01-20,Proposal,10336.5,0.55,Elm Coffee House 078 - P007 expansion
+2026-10-31,OPP00139,C079,P012,Machine,2026-10-09,2026-12-03,Proposal,33821.47,0.55,Hearth Coffee House 079 - P012 expansion
+2026-10-31,OPP00140,C080,P009,Consumable,2026-07-11,2026-12-27,Negotiation,9891.22,0.8,Stone Coffee House 080 - P009 expansion
+2026-10-31,OPP00141,C080,P004,Consumable,2026-06-13,2026-11-19,Discovery,15752.2,0.3,Stone Coffee House 080 - P004 expansion
+2026-10-31,OPP00142,C081,P003,Machine,2026-10-11,2027-01-25,Qualification,18692.99,0.15,Maple Espresso 081 - P003 expansion
+2026-10-31,OPP00143,C081,P010,Machine,2026-07-05,2027-02-15,Qualification,41171.06,0.15,Maple Espresso 081 - P010 expansion
+2026-10-31,OPP00144,C081,P004,Consumable,2026-07-08,2026-11-21,Negotiation,10678.76,0.8,Maple Espresso 081 - P004 expansion
+2026-10-31,OPP00145,C082,P005,Consumable,2026-07-08,2026-12-31,Proposal,20685.3,0.55,Juniper Espresso 082 - P005 expansion
+2026-10-31,OPP00146,C082,P011,Machine,2026-08-13,2026-10-29,Closed Won,25364.24,1.0,Juniper Espresso 082 - P011 expansion
+2026-10-31,OPP00147,C083,P011,Machine,2026-06-23,2027-03-28,Negotiation,24383.88,0.8,North Espresso 083 - P011 expansion
+2026-10-31,OPP00148,C083,P008,Consumable,2026-07-18,2027-03-29,Proposal,22732.79,0.55,North Espresso 083 - P008 expansion
+2026-10-31,OPP00149,C083,P005,Consumable,2026-07-19,2026-12-21,Discovery,4301.08,0.3,North Espresso 083 - P005 expansion
+2026-10-31,OPP00150,C084,P010,Machine,2026-07-09,2027-01-27,Negotiation,35096.28,0.8,River Espresso 084 - P010 expansion
+2026-10-31,OPP00151,C084,P006,Consumable,2026-08-27,2026-12-17,Qualification,16611.3,0.15,River Espresso 084 - P006 expansion
+2026-10-31,OPP00152,C084,P006,Consumable,2026-06-17,2027-03-30,Qualification,13899.87,0.15,River Espresso 084 - P006 expansion
+2026-10-31,OPP00153,C085,P008,Consumable,2026-08-28,2027-03-14,Proposal,17663.79,0.55,Copper Espresso 085 - P008 expansion
+2026-10-31,OPP00154,C085,P008,Consumable,2026-09-14,2026-12-01,Proposal,20017.71,0.55,Copper Espresso 085 - P008 expansion
+2026-10-31,OPP00155,C086,P002,Consumable,2026-10-01,2026-12-14,Proposal,8160.78,0.55,Sunrise Espresso 086 - P002 expansion
+2026-10-31,OPP00156,C086,P010,Machine,2026-07-20,2026-10-07,Closed Won,37140.91,1.0,Sunrise Espresso 086 - P010 expansion
+2026-10-31,OPP00157,C087,P003,Machine,2026-07-15,2027-01-14,Negotiation,42463.08,0.8,Birch Espresso 087 - P003 expansion
+2026-10-31,OPP00158,C087,P002,Consumable,2026-09-18,2027-03-18,Proposal,3807.51,0.55,Birch Espresso 087 - P002 expansion
+2026-10-31,OPP00159,C088,P001,Consumable,2026-06-26,2026-12-06,Negotiation,19203.92,0.8,Harbor Espresso 088 - P001 expansion
+2026-10-31,OPP00160,C088,P011,Machine,2026-07-21,2026-10-17,Closed Won,34620.58,1.0,Harbor Espresso 088 - P011 expansion
+2026-10-31,OPP00161,C089,P001,Consumable,2026-09-27,2026-11-21,Proposal,13285.17,0.55,Lake Espresso 089 - P001 expansion
+2026-10-31,OPP00162,C089,P011,Machine,2026-08-24,2027-03-19,Qualification,46937.28,0.15,Lake Espresso 089 - P011 expansion
+2026-10-31,OPP00163,C089,P006,Consumable,2026-09-22,2027-03-24,Negotiation,12302.14,0.8,Lake Espresso 089 - P006 expansion
+2026-10-31,OPP00164,C090,P006,Consumable,2026-06-10,2027-03-19,Discovery,6573.28,0.3,Cedar Espresso 090 - P006 expansion
+2026-10-31,OPP00165,C091,P003,Machine,2026-09-18,2026-10-14,Closed Won,14951.25,1.0,Bluebird Espresso 091 - P003 expansion
+2026-10-31,OPP00166,C091,P002,Consumable,2026-09-17,2027-03-29,Proposal,22558.39,0.55,Bluebird Espresso 091 - P002 expansion
+2026-10-31,OPP00167,C092,P008,Consumable,2026-07-09,2027-02-12,Proposal,19125.19,0.55,Briar Espresso 092 - P008 expansion
+2026-10-31,OPP00168,C092,P001,Consumable,2026-07-29,2027-03-24,Discovery,18327.22,0.3,Briar Espresso 092 - P001 expansion
+2026-10-31,OPP00169,C092,P007,Consumable,2026-07-20,2026-10-09,Closed Lost,19268.99,0.0,Briar Espresso 092 - P007 expansion
+2026-10-31,OPP00170,C093,P002,Consumable,2026-09-02,2026-12-24,Qualification,18929.38,0.15,Willow Espresso 093 - P002 expansion
+2026-10-31,OPP00171,C094,P008,Consumable,2026-06-17,2026-10-12,Closed Won,8552.21,1.0,Golden Espresso 094 - P008 expansion
+2026-10-31,OPP00172,C094,P001,Consumable,2026-09-16,2027-03-23,Negotiation,14949.92,0.8,Golden Espresso 094 - P001 expansion
+2026-10-31,OPP00173,C095,P003,Machine,2026-07-04,2026-10-17,Closed Won,35439.05,1.0,Orchard Espresso 095 - P003 expansion
+2026-10-31,OPP00174,C095,P011,Machine,2026-07-13,2027-02-11,Negotiation,32377.2,0.8,Orchard Espresso 095 - P011 expansion
+2026-10-31,OPP00175,C096,P003,Machine,2026-09-08,2027-01-19,Proposal,19467.48,0.55,Spruce Espresso 096 - P003 expansion
+2026-10-31,OPP00176,C096,P012,Machine,2026-07-27,2026-12-16,Qualification,7894.98,0.15,Spruce Espresso 096 - P012 expansion
+2026-10-31,OPP00177,C097,P012,Machine,2026-07-06,2027-03-29,Qualification,8743.24,0.15,Meadow Espresso 097 - P012 expansion
+2026-10-31,OPP00178,C098,P012,Machine,2026-09-27,2026-10-20,Closed Won,45816.47,1.0,Elm Espresso 098 - P012 expansion
+2026-10-31,OPP00179,C098,P003,Machine,2026-06-13,2027-01-22,Negotiation,12584.06,0.8,Elm Espresso 098 - P003 expansion
+2026-10-31,OPP00180,C098,P005,Consumable,2026-07-08,2027-02-11,Qualification,23222.21,0.15,Elm Espresso 098 - P005 expansion
+2026-10-31,OPP00181,C099,P008,Consumable,2026-10-18,2026-11-18,Proposal,9329.54,0.55,Hearth Espresso 099 - P008 expansion
+2026-10-31,OPP00182,C099,P004,Consumable,2026-09-22,2027-03-01,Proposal,10996.02,0.55,Hearth Espresso 099 - P004 expansion
+2026-10-31,OPP00183,C100,P004,Consumable,2026-08-29,2027-02-20,Proposal,14589.37,0.55,Stone Espresso 100 - P004 expansion
+2026-10-31,OPP00184,C100,P008,Consumable,2026-07-20,2026-12-01,Discovery,18403.47,0.3,Stone Espresso 100 - P008 expansion

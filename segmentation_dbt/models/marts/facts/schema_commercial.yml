@@ -1,0 +1,72 @@
+version: 2
+models:
+  - name: fct_open_orders__line_snapshot
+    description: >
+      Remaining, unfulfilled synthetic coffee supplier order lines at a specified
+      snapshot date. Values are not recognized revenue. Never add repeated
+      snapshots together; select one snapshot (usually the latest).
+    columns:
+      - name: snapshot_date
+        data_tests: [not_null]
+      - name: order_line_id
+        data_tests: [not_null]
+      - name: analysis_customer_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_customer')
+              field: analysis_customer_id
+      - name: product_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_product')
+              field: product_id
+      - name: bu
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['Consumable', 'Machine']
+      - name: order_status
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['Open', 'Partial', 'On Hold']
+      - name: open_order_value
+        description: Outstanding dollar amount as of the snapshot, not invoiced sales.
+        data_tests: [not_null]
+  - name: fct_pipeline__opportunity_snapshot
+    description: >
+      Sales opportunity values as of a specific snapshot date. Weighted open
+      pipeline is open amount times probability; it is not a forecast of
+      recognized revenue. Never sum multiple snapshots together.
+    columns:
+      - name: snapshot_date
+        data_tests: [not_null]
+      - name: opportunity_id
+        data_tests: [not_null]
+      - name: analysis_customer_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_customer')
+              field: analysis_customer_id
+      - name: product_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_product')
+              field: product_id
+      - name: bu
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['Consumable', 'Machine']
+      - name: stage
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['Qualification', 'Discovery', 'Proposal', 'Negotiation', 'Closed Won', 'Closed Lost']
+      - name: probability
+        description: Number between 0 and 1; probability is stage-based in the sample data.
+        data_tests: [not_null]
